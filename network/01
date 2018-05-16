@@ -1,0 +1,1 @@
+ifconfig | grep ^'\w' | cut -d : -f 1
